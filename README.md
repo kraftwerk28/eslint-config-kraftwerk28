@@ -5,22 +5,22 @@
 ## Usage:
 
 ### Common case:
-```
-// eslintrc.yml
+```yaml
+# eslintrc.yml
 extends:
   - @kraftwerk28
 ```
 
 ### [Node.js](https://nodejs.org/) project:
-```
-// eslintrc.yml
+```yaml
+# eslintrc.yml
 extends:
   - @kraftwerk28/eslint-config/node
 ```
 
 ### [React](https://reactjs.org/) project ([JSX](https://en.wikipedia.org/wiki/React_(JavaScript_library)#JSX)):
-```
-// eslintrc.yml
+```yaml
+# eslintrc.yml
 extends:
   - @kraftwerk28/eslint-config/react
 ```
