@@ -1,0 +1,33 @@
+env:
+  es6: true
+extends:
+  - standard
+rules:
+  semi:
+    - error
+    - always
+  quotes:
+    - error
+    - single
+  jsx-quotes:
+    - error
+    - prefer-single
+  no-var: error
+  prefer-arrow-callback: error
+  indent:
+    - error
+    - 2
+  space-in-parens: error
+  max-len: 
+    - error
+    - ignoreStrings: true
+      ignoreComments: true
+  array-bracket-spacing:
+    - error
+    - never
+  template-curly-spacing:
+    - error
+    - never
+  computed-property-spacing:
+    - error
+    - never
