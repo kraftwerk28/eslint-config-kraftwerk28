@@ -1,6 +1,6 @@
 {
   "name": "@kraftwerk28/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/kraftwerk28/eslint-config-kraftwerk28",
   "author": "Vsevolod (@kraftwerk28) <kefirchik3@gmail.com>",
