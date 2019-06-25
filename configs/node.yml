@@ -1,2 +1,3 @@
+extends: kraftwerk28
 env:
   node: true

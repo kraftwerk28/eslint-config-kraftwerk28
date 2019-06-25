@@ -1,12 +1,13 @@
 env:
   browser: true
 parserOptions:
+  sourceType: module
   ecmaFeatures:
     jsx: true
-plugins:
-  - react
-  - react-hooks
+extends: kraftwerk28
 rules:
+  react/jsx-uses-react: error
+  react/jsx-uses-vars: error
   react/react-in-jsx-scope: error
   react/void-dom-elements-no-children: error
   react/no-children-prop: error
@@ -32,7 +33,7 @@ rules:
     - 2
     - checkAttributes: true
       indentLogicalExpressions: true
-  react/jsx-key: true
+  react/jsx-key: error
   react/jsx-max-props-per-line: error
   react/jsx-no-duplicate-props: error
   react/jsx-no-undef: error
@@ -40,3 +41,6 @@ rules:
     - error
     - allow: single-child
   react-hooks/rules-of-hooks: error
+plugins:
+  - react
+  - react-hooks
